@@ -14,7 +14,7 @@ chmod a+x $KSROOT/init.d/S97verysync.sh
 dbus set softcenter_module_verysync_install=1
 dbus set softcenter_module_verysync_version=0.1
 dbus set softcenter_module_verysync_name=verysync
-dbus set softcenter_module_verysync_title=verysync
+dbus set softcenter_module_verysync_title=VerySync
 dbus set softcenter_module_verysync_description="轻松搭建私有云"
 rm -rf $KSROOT/install.sh
 
